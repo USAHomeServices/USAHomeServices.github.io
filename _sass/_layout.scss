@@ -1,0 +1,25 @@
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site-content {
+  flex: 1;
+  min-height: 80vh;
+}
+
+footer {
+  background: $footer-color;
+  padding: 3em;
+  color: black;
+  a {
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.07em;
+  }
+}
+
+#page, #play {
+  padding-top: 2em;
+  position: relative;
+}
